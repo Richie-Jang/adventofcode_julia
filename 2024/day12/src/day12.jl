@@ -1,5 +1,8 @@
+module day12
+
 using Printf
 using DataStructures
+
 #part1
 sample1 = """RRRRIICCFF
 RRRRIICCCF
@@ -73,7 +76,7 @@ function start_check(grid::Vector{Vector{Char}})
     for y in eachindex(grid)
         for x in eachindex(grid[y])
             if (y, x) ∉ visits
-                # bfs 
+                # bfs
                 println(visits)
                 sum += bfs((y, x), grid, visits, grid[y][x])
             end
@@ -82,3 +85,5 @@ function start_check(grid::Vector{Vector{Char}})
 
     println(sum)
 end
+
+end # module day12
