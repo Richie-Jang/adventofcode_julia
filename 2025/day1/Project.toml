@@ -1,0 +1,12 @@
+name = "day1"
+uuid = "42de5a5f-7e01-4e07-bcae-6f4ee8069830"
+version = "0.1.0"
+authors = ["Richie Jang <richiejang@naver.com>"]
+
+[deps]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[compat]
+DataStructures = "0.19.3"
+Printf = "1.11.0"
