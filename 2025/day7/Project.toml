@@ -1,0 +1,10 @@
+name = "day7"
+uuid = "72787bb9-03ff-4a95-bfa3-558234745a99"
+version = "0.1.0"
+authors = ["Richie Jang <richiejang@naver.com>"]
+
+[deps]
+Memoize = "c03570c3-d221-55d1-a50c-7939bbd78826"
+
+[compat]
+Memoize = "0.4.4"
