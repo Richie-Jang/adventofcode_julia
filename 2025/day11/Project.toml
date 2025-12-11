@@ -1,0 +1,12 @@
+name = "day11"
+uuid = "e09b75aa-e849-471d-8aaa-2f98588cb69e"
+version = "0.1.0"
+authors = ["Richie Jang <richiejang@naver.com>"]
+
+[deps]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Memoize = "c03570c3-d221-55d1-a50c-7939bbd78826"
+
+[compat]
+DataStructures = "0.19.3"
+Memoize = "0.4.4"
