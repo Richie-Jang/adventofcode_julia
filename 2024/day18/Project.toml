@@ -1,0 +1,10 @@
+name = "day18"
+uuid = "368f5115-f6c7-4b5d-a7b2-9109f3ce6395"
+version = "0.1.0"
+authors = ["Richie Jang <richiejang@naver.com>"]
+
+[deps]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+
+[compat]
+DataStructures = "0.19.3"
